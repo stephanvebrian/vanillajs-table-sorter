@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VanillaJS Table Sorter</title>
+</head>
+<body>
+    <table id="tableSorter" style="width: 400px;">
+        <thead>
+            <tr>
+                <th sorter-disable ><input type="checkbox" name="checkbox"></th>
+                <th sorter-numeric >No.</th>
+                <th>Name</th>
+                <th sorter-date >Date of Birth</th>
+                <th sorter-numeric >Copies</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>1</td>
+                <td>Axel Sebastian</td>
+                <td>04 Aug 2020</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>2</td>
+                <td>Michael</td>
+                <td>14 May 2020</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>3</td>
+                <td>Valentino Gerin</td>
+                <td>14 Feb 2020</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>4</td>
+                <td>Budi To</td>
+                <td>2 Feb 2020</td>
+                <td>111</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>5</td>
+                <td>Vivi</td>
+                <td>03 Jan 2020</td>
+                <td>245</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>6</td>
+                <td>Valentino Gerin</td>
+                <td>6 Nov 2020</td>
+                <td>124</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>7</td>
+                <td>Susi</td>
+                <td>4 Dec 2020</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>8</td>
+                <td>Puji</td>
+                <td>3 July 2020</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>9</td>
+                <td>Devi</td>
+                <td>04 June 2020</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id=""></td>
+                <td>10</td>
+                <td>Ani</td>
+                <td>12 June 2020</td>
+                <td>52</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="./js/tablesorter.js"></script>
+    <script>
+        tableSorter(document.getElementById('tableSorter'));
+    </script>
+</body>
+</html>
